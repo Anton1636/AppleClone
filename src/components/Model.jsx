@@ -24,8 +24,8 @@ const Model = () => {
 	const small = useRef(new THREE.Group())
 	const large = useRef(new THREE.Group())
 
-	const [smallRotation, setSmallRotation] = useRef(new THREE.Group())
-	const [largeRotation, setLargeRotation] = useRef(new THREE.Group())
+	  const [smallRotation, setSmallRotation] = useState(0);
+  const [largeRotation, setLargeRotation] = useState(0);
 
 	const tl = gsap.timeline()
 
